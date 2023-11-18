@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-vda4-1nx!!98th=@#ssj28&u)mw*7sdru3yi2z(ued-10bh@@g
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 
-                 '192.168.0.38']
+                 # адрес сервера на котором лежит проект 
+                 ]
 
 AUTH_USER_MODEL = 'user_app.UserAuth'
 LOGIN_REDIRECT_URL = '/'
